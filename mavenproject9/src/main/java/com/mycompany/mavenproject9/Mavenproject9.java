@@ -18,7 +18,7 @@ Scanner sc = new Scanner(System.in);
         int num;
 
         do {
-            System.out.print("Introdueix un número entre 1 i 10: ");
+            System.out.print("Introdueix un número que estigui entre 1 i 10: ");
             num = sc.nextInt();
         } while (num < 1 || num > 10);
 
